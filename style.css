@@ -67,14 +67,29 @@ button:hover {
 
 #pedra {
     border: #e42b12 solid 5px;
+    
+}
+
+#pedra img {
+    height: 50px;
+    width: 50px;
 }
 
 #papel {
     border: #cff013da solid 5px;
 }
 
+#papel img {
+    height: 50px;
+    width: 50px;
+}
+
 #tesoura {
     border: #21c4ec solid 5px;
+}
+#tesoura img {
+    height: 50px;
+    width: 50px;
 }
 
 .result {
@@ -129,7 +144,6 @@ button:hover {
     height: 20px;
     display: flex;
     align-items: center;
-
 }
 
 
@@ -137,15 +151,15 @@ button:hover {
 @media (max-width: 500px) {
 
     #pedra img {
-        width: 20px;
+        width: 40px;
     }
 
     #papel img {
-        width: 20px;
+        width: 40px;
     }
 
     #tesoura img {
-        width: 20px;
+        width: 40px;
     }
 
     .your-score,
@@ -164,8 +178,26 @@ button:hover {
     }
 
     .container {
-        width: 90%;
-        height: auto;
+        width: 95%;
+       
     }
 
 }
+
+@media (max-width: 370px) {
+    
+
+    #pedra {
+        width: 20px;
+       
+    }
+
+    #papel {
+        width: 20px;
+    }
+
+    #tesoura {
+        width: 20px;
+    }
+}
+
