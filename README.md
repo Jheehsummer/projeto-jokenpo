@@ -8,6 +8,8 @@ Aqui em nosso país é conhecida como Pedra, Papel ou Tesoura.
 <br>
 Pedra quebra Tesoura, Papel embrulha a Pedra e Tesoura corta papel.<h4>
 
+<h3>Para visualizar o prejeto <a href="https://jheehsummer.github.io/projeto-jokenpo/">clique aqui</a></h3>
+
 <h4>Pode parecer um projeto simples para os mais avançados, mas para mim é um projeto muito gratificante de ter concluído, nesse projeto foi utilizado:</h4>
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="logo-html">
