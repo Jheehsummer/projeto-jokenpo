@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.fundomickey {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.gif {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 700;
+}
+
+.container {
+    width: 70%;
+    height: 65vh;
+    background-color: #f020205e;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+button {
+    width: 120px;
+    height: 120px;
+    padding: 30px;
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    transition: opacity o.5s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#pedra {
+    border: #e42b12 solid 5px;
+}
+
+#papel {
+    border: #cff013da solid 5px;
+}
+
+#tesoura {
+    border: #21c4ec solid 5px;
+}
+
+.result {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0c0e01da;
+    background-color: rgb(248, 246, 243);
+    border-radius: 30px;
+    border: #cff013da solid;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.your-score,
+.machine-score {
+    font-size: 800;
+    font-size: 25px;
+
+}
+
+.score {
+    color: #e42b12;
+    font-weight: bold;
+}
+
+.score2 {
+    color: #2ee6f3;
+    font-weight: bold;
+}
+
+.botoes {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.buttons {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.zerar {
+    width: 10%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+@media (max-width: 500px) {
+
+    #pedra img {
+        width: 20px;
+    }
+
+    #papel img {
+        width: 20px;
+    }
+
+    #tesoura img {
+        width: 20px;
+    }
+
+    .your-score,
+    .machine-score {
+
+        font-size: 17px;
+    }
+
+    .gif {
+        width: 200px;
+    }
+
+    .botoes {
+        width: 70vw;
+        height: auto;
+    }
+
+    .container {
+        width: 90%;
+        height: auto;
+    }
+
+}
